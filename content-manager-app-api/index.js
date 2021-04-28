@@ -16,6 +16,7 @@ app.get("/api/resources",(req, res) => {
     
     const resources = getResources();
     res.send(resources);
+    
 })
 
 app.listen(PORT, () => {
